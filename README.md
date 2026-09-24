@@ -19,4 +19,4 @@ Use concise commits that describe one change, such as `docs: add system architec
 
 ## Publication
 
-This is currently a local Git repository. No GitHub or GitLab remote has been configured, so there is no public repository URL or collaborator permission to share yet.
+The GitHub repository is published at https://github.com/Djgituo/cybersecurity-awareness-system. Both `main` and `development` are available. Add collaborators through GitHub repository settings when review or contribution access is needed.
