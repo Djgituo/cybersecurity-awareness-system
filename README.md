@@ -4,10 +4,28 @@ Academic capstone repository for the proposed cybersecurity awareness and contro
 
 ## Repository layout
 
-- `source_code/` — application implementation (planned)
+- `source_code/` — local Python prototype, setup guide, and SQLite-backed demo
 - `documentation/` — assignment documents and project documentation
 - `design/` — architecture diagrams and design specifications
 - `tests/` — test plans and test materials
+
+## Run the first local prototype
+
+Requires Python 3.11 or newer. From the repository root, run:
+
+```powershell
+python source_code/app.py
+```
+
+Open http://127.0.0.1:8000 in a browser. The first run creates a local SQLite database with synthetic demo accounts and a five-participant cohort. Demo credentials, working features, and prototype limitations are documented in [source_code/README.md](source_code/README.md).
+
+The employee flow includes a lesson, a three-question assessment, and safe reporting practice. Managers see cohort-level totals and can schedule an allowlisted scenario locally. Administrators can review roles and audit activity. The prototype sends no email and collects no credentials. It is for local academic demonstration, not production use.
+
+## Demonstration files
+
+- `SafeSteps_System_Demonstration.avi` — timed 6-minute, 40-second system walkthrough
+- `SafeSteps_System_Demonstration.pptx` — editable slides with the full narration in speaker notes
+- `SafeSteps_Demonstration_Narration.txt` — timed narration script
 
 ## Branch workflow
 

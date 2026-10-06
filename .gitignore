@@ -3,3 +3,9 @@
 .revise_docs.py
 .apa_touchup.py
 *-image1.png
+.venv/
+__pycache__/
+*.py[cod]
+source_code/prototype.sqlite3
+video_assets/
+*.wav
